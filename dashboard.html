@@ -25,6 +25,22 @@
         object-fit: cover;
         border-radius: 50%;
       }
+      .naira{
+        background-color: gainsboro;
+        width: 38px;
+        text-align: center;
+      }
+      .amount{
+        margin-top: 5px;
+      }
+      .naira-2{
+        padding-right: 15px;
+        text-align: center;
+        padding-top: 10px;
+      }
+      .amount_border{
+        display: inline-flex;
+      }
     </style>
   </head>
   <body>
@@ -46,7 +62,9 @@
           <h4 class="text-white">Accounts</h4>
 
           <span class="text-white">
-            <i class="fa fa-ellipsis-h fa-lg"></i>
+          <p class="mb-0">SSN:410926093</p>
+          <p class="mb-0">  Account number: 1248009321</p>
+         <p class="mb-0">   Routine number:041203942</p>
           </span>
         </div>
 
@@ -60,7 +78,7 @@
                 <div
                   class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center"
                 >
-                  <h4>CKCARFRE 5811</h4>
+                  <h4>Checking Account</h4>
                   <h4>$240,932.43</h4>
                 </div>
                 <div
@@ -81,7 +99,7 @@
                 <div
                   class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center"
                 >
-                  <h4>SAV 2059</h4>
+                  <h4>Savings Account</h4>
                   <h4>$900,000.00</h4>
                 </div>
                 <div
@@ -190,7 +208,7 @@
                         <span class="badge rounded-pill bg-secondary"
                           >pending</span
                         >
-                        <span class="text-muted"> Mar 13, CKCARFRE 5811</span>
+                        <span class="text-muted"> Apl 20, CKCARFRE 5811</span>
                       </small>
                     </div>
 
@@ -210,7 +228,7 @@
                         <span class="badge rounded-pill bg-secondary"
                           >pending</span
                         >
-                        <span class="text-muted"> Mar 20 , CKCARFRE 5811</span>
+                        <span class="text-muted"> Apl 29 , CKCARFRE 5811</span>
                       </small>
                     </div>
 
@@ -230,7 +248,7 @@
                         <span class="badge rounded-pill bg-secondary"
                           >pending</span
                         >
-                        <span class="text-muted"> Apr 1, CKCARFRE 5811</span>
+                        <span class="text-muted"> May 3, CKCARFRE 5811</span>
                       </small>
                     </div>
 
@@ -250,7 +268,7 @@
                         <span class="badge rounded-pill bg-secondary"
                           >pending</span
                         >
-                        <span class="text-muted"> Apr 20, CKCARFRE 5811</span>
+                        <span class="text-muted"> May 20, CKCARFRE 5811</span>
                       </small>
                     </div>
 
@@ -270,7 +288,7 @@
                         <span class="badge rounded-pill bg-secondary"
                           >pending</span
                         >
-                        <span class="text-muted"> Jan 19, CKCARFRE 5811</span>
+                        <span class="text-muted"> May 16, CKCARFRE 5811</span>
                       </small>
                     </div>
 
@@ -325,6 +343,7 @@
                   </li>
                 </ul>
                 <img src="./W3.jpeg" class="w-3"  alt="" style="width: 300px;">
+                <img src="./W$4.jpeg" class="w-3"  alt="" style="width: 300px; margin-top: 10px;">
               </div>
               <br /><br /><br /><br /><br />
               <div class="card-footer border-top-0 bg-white">
@@ -400,8 +419,26 @@
                 name=""
               />
             </div>
+            <div class="amount" >
+              <strong style="display: block !important;">Amount</strong>
+             <p class="pt-2 mb-0"> <span style="color: #01a1c1 !important;">Transfer limits</span> $5,000.00 daily, $15,000.00 30-day</p>
+             <div class="amount_border">
+              
+              <div class="naira-2 mb-3">
+                <label for="pwd" class="form-label"></label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="pwd"
+                  placeholder=""
+                  name=""
+                />
+              </div>
+             </div>
+            </div>
 
-            <button type="submit" class="btn text-light" style="background-color: #01a1c1;">Send</button>
+            <button type="submit" class="btn text-light" style="background-color: #01a1c1;"><a href="./welcome.html" class="text-white"
+               style="text-decoration: none !important;"> Send</a></button>
           </div>
 
           <!-- Modal footer -->
